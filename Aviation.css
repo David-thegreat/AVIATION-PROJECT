@@ -1,0 +1,440 @@
+/* navbar */
+
+.navHeight{
+    height: 40px;
+}
+
+.carousel-caption-ps{
+    position: absolute;
+    right: 10%;
+    bottom: 22rem;
+    left: 33%;
+    color: green;
+    font-family: Brushstroke, fantasy;
+}
+
+.carousel-caption-ss {
+    position: absolute;
+    right: 15%;
+    bottom: 22rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-family: Brushstroke, fantasy;
+}
+
+.carousel-caption-ss h3{
+  color: green;
+}
+
+.green{
+    font-family: Brushstroke, fantasy;
+  font-size: 60px;
+  color: green;
+}
+
+.green2{
+  font-family: Brushstroke, fantasy;
+}
+
+.yellow{
+    font-family: Brushstroke, fantasy;
+    font-size: 53px;
+    color: #123187;
+}
+
+.btnc{
+    display: inline-block;
+    border: none;
+}
+
+.btnc:hover{
+    font-weight: 500;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateX(-7px);
+}
+
+.icon{
+    text-decoration: none;
+}
+
+/*body */
+
+.datj-p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.dajtP{
+    float: right;
+    font-size: 40px;
+}
+
+.hR{
+    margin-top: 100px;
+    padding: 3.5px;
+    width: 350px;
+}
+
+.column{
+    width: 50%;
+    padding-top: 150px;
+}
+
+.griD{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pageLink{
+    margin: 0;
+    padding: 0;
+    color: #1cfc03;
+    text-decoration: none;
+    background: none;
+}
+
+.imG{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.itb{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.itb:hover{
+    color: #1cfc03;
+}
+
+.h5U{
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Grid column image */
+
+.gridImg{
+    float: left;
+    height: 20px;
+}   
+
+/* footer paragraph */
+
+.footerP{
+    font-size: 15px;
+}
+
+/* Board of director Page header */
+
+.bodHead{
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 130px;
+}
+
+.bodH4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    /* padding-top: 120px; */
+    font-size: 15px;
+    color: #2EE59D;
+}
+
+/* HISTORY  */
+
+.historyHead{
+    padding-top: 120px;
+    padding-bottom: 130px;
+
+}
+
+.hh2{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.hisbody{
+    padding-top: 130px;
+    padding-bottom: 90px;
+}
+
+.HISp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hish1{
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+.his-ul{
+    margin-bottom: 1.5rem;
+    list-style-type: square;
+}
+
+.his-ul li{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.his-ul li::marker{
+    color: #2EE59D;
+    font-size: 1.5rem;
+}
+
+.new-p{
+    margin-bottom: 4rem;
+    margin-top: 10rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HISTORY  */
+
+
+.my-nav {
+    background: linear-gradient(45deg, green, blue);
+}
+
+.header1{
+    display: flex;
+}
+
+.headerNUM{
+    margin-left: 50px;
+}
+
+/* Navbar dropdown */
+
+.DrpDown{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #32a852;
+}
+
+.DrpDown-item{
+    margin-right: 40px;
+    color: white;
+}
+
+.DrpDown-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 200%;
+    cursor: pointer;
+    color: white;
+}
+
+.c-drpDown{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #32a852;
+}
+
+/* Navbar dropdown */
+
+
+/* board of directors */
+
+.bod-body{
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+}
+
+.bodiMg{
+    float: left;
+    width: 33.3%;
+    /* padding: 20px;
+    padding-bottom: 100px; */
+}
+
+.bod-h4{
+    font-weight: 100;
+    font-size: 25px;
+    color: #32a852;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bod-p{
+    font-weight: 100;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bttn{
+    width: 30%;
+    height: 40px;
+    color: #000;
+    background-color: #ededed;
+    border: none;
+    border-radius: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.bttn:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+/* board of directors */
+
+
+/* Aircraft Management */
+
+.air-p{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Aircraft Management */
+
+/* Maintenance */
+
+.M-img{
+    margin-bottom: 8rem;
+}
+.M-p{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.M-row{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+/* Maintenance */
+
+/* Contact */
+
+.C-p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 4rem;
+}
+
+.c-body{
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+}
+
+input[type=email] {
+    border: 2px solid #1cfc03;
+}
+
+input[type=password] {
+    border: 2px solid #1cfc03;
+}
+
+input[type=subject] {
+    border: 2px solid #1cfc03;
+}
+
+input[type=text] {
+    border: 2px solid #1cfc03;
+}
+
+input[type=message] {
+    background-color: #32a852;
+    color: white;
+}
+
+input[type=message]::placeholder{
+    color: white;
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.message{
+    border-radius: 5px;
+    border: 2px solid #1cfc03;
+}
+
+.message:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #1cfc03;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.c-btn{
+    border-radius: none;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    height: 50px;
+    width: 80px;
+    background-color: #1cfc03;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.c-btn:hover{
+    background-color: #1cfc03;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(7px);
+}
+
+/* Contact */
